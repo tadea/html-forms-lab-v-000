@@ -11,7 +11,25 @@
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
-
+      <form>
+       <label for="fullname">Owner Name</label>
+       <input type="text" id="fullname" name="ownername" placeholder="Enter Name" required>
+       
+        <label for="email">Owner Email</label>
+       <input type="email" id="email" name="email" placeholder="Enter Email" required>
+       
+        <label for="phone">Owner Telephone (optional)</label>
+       <input type="tel" id="phone" name="phone" placeholder="Enter Telephone (optional)">
+       
+        <label for="message">Enter your color system.</label>
+       <textarea id="message" name="message" placeholder="Enter Message">
+       
+       <h3>What are your favorite colors?</h3>
+         <input type="checkbox" id="checkbox" name="color-1" value="color"> Blue <br>
+         <input type="checkbox" id="checkbox" name="color-2" value="color"> Red<br>
+         <input type="submit" value="Find games">
+         
+      </form>
 
       <!-- Add a label for 'fullname'-->
 
